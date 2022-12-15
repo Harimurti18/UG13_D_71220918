@@ -1,0 +1,30 @@
+# Paulus Harimurti
+# 71220918
+
+import turtle
+turtle.bgcolor("blue")
+pen = turtle.Turtle()
+
+pen.penup()
+pen.goto(0,-200)
+pen.pendown()
+pen.color("white")
+pen.pensize(20)
+pen.left(90)
+pen.forward(100)
+pen.back(50)
+pen.right(90)
+pen.forward(50)
+pen.left(90)
+pen.forward(50)
+pen.back(100)
+pen.right(90)
+pen.penup()
+pen.goto(0,100)
+pen.pendown()
+pen.pensize(20)
+pen.color("white")
+pen.circle(40,180)
+pen.left(90)
+pen.forward(120)
+pen.penup()
